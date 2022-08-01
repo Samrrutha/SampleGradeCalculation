@@ -3,7 +3,7 @@ public class Main{
 public static void main(String args[])
 {
 Scanner sc  = new Scanner(System.in);
-int avg=nextInt();
+int avg=sc.nextInt();
 System.out.print("The student Grade is: ");
 if(avg>=80)
 {
