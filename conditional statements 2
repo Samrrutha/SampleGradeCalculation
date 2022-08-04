@@ -1,0 +1,27 @@
+#inlcude<stdio.h>
+int main(){
+int n;
+printf("Enter any number between 1 to 5 :\n");
+scanf("%d",&n);
+switch(n){
+case 1:
+printf("Food Item - Pizza \nPrice - 240");
+break;
+case 2:
+printf("Food Item - Burger \nPrice - 150");
+break;
+case 3:
+printf("Food Item - French Fries \nPrice - 179");
+break;
+case 4:
+printf("Food Item - Pancake \nPrice - 100");
+break;
+case 5:
+printf("Food Item - Garlic Bread \nPrice - 184");
+break;
+/*case 6:
+printf("Food Item - Sandwich \n Price - 210");
+break;*/
+default:
+printf("Your choice not available");
+}}
